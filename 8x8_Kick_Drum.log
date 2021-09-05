@@ -1,0 +1,21 @@
+Circuit: .title KiCad schematic
+
+Warning: Multiple definitions of model "z8_2" Type: Diode
+Rv1: both pins shorted together -- ignoring.
+Error on line 67 : j1 net-_d3-pad1_ net-_d3-pad1_ 0 0 0 0 0 0 net-_d2-pad2_ net-_d2-pad2_ power in
+	 Unable to find definition of model "0"
+	
+	*  Unknown parameter "0"
+Error on line 80 : u1 net-_c10-pad2_ net-_c9-pad1_ net-_c7-pad1_ -12v net-_r19-pad1_ net-_r18-pad2_ net-_c11-pad2_ +12v tl072
+	 Unable to find definition of model "-12v"
+	
+	*  Unknown parameter "net-_r19-pad1_"
+Error on line 115 : rv2 net-_r21-pad2_ net-_c12-pad1_ net-_c12-pad1_ tone 10k
+	 Unable to find definition of model "net-_c12-pad1_"
+	
+	*  Unknown parameter "tone"
+Error on line 127 : j2 kick_trigger accent 0 kick_out kick
+	 Unable to find definition of model "kick_out"
+	
+	*  Unknown parameter "kick"
+Fatal Error: URC instance U1: Length must be positive definite.

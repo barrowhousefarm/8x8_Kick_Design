@@ -1,0 +1,1610 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1450 3650 1500 3650
+Wire Wire Line
+	1500 3700 1500 3650
+Connection ~ 1500 3650
+Wire Wire Line
+	1500 3650 1550 3650
+Wire Wire Line
+	1850 3650 1950 3650
+Wire Wire Line
+	1950 3650 1950 3700
+Wire Wire Line
+	1950 4000 1950 4050
+Wire Wire Line
+	2050 4050 1950 4050
+Connection ~ 1950 4050
+Wire Wire Line
+	1950 4050 1950 4100
+Wire Wire Line
+	2350 3550 2350 3500
+Wire Wire Line
+	2350 3500 2550 3500
+Connection ~ 2350 3500
+Wire Wire Line
+	2350 3500 2350 3450
+Wire Wire Line
+	3400 3700 3300 3700
+Wire Wire Line
+	3300 3700 3300 3900
+Wire Wire Line
+	3300 4100 3400 4100
+Wire Wire Line
+	3700 4100 3800 4100
+Wire Wire Line
+	3800 4100 3800 3900
+Wire Wire Line
+	3800 3700 3700 3700
+Connection ~ 3800 3900
+Wire Wire Line
+	3800 3900 3800 3700
+Connection ~ 3950 3900
+Wire Wire Line
+	3300 3900 3200 3900
+Wire Wire Line
+	2850 3900 2850 3700
+Connection ~ 3300 3900
+Wire Wire Line
+	3300 3900 3300 4100
+Wire Wire Line
+	2350 3100 2350 3150
+Wire Wire Line
+	2350 3100 2850 3100
+Connection ~ 2350 3100
+$Comp
+L power:GND #PWR02
+U 1 1 60B25043
+P 1500 4000
+F 0 "#PWR02" H 1500 3750 50  0001 C CNN
+F 1 "GND" H 1505 3827 50  0000 C CNN
+F 2 "" H 1500 4000 50  0001 C CNN
+F 3 "" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60B257AD
+P 1950 4400
+F 0 "#PWR04" H 1950 4150 50  0001 C CNN
+F 1 "GND" H 1955 4227 50  0000 C CNN
+F 2 "" H 1950 4400 50  0001 C CNN
+F 3 "" H 1950 4400 50  0001 C CNN
+	1    1950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 60B25D52
+P 2350 4250
+F 0 "#PWR07" H 2350 4000 50  0001 C CNN
+F 1 "GND" H 2355 4077 50  0000 C CNN
+F 2 "" H 2350 4250 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60B2635C
+P 3950 4200
+F 0 "#PWR013" H 3950 3950 50  0001 C CNN
+F 1 "GND" H 3955 4027 50  0000 C CNN
+F 2 "" H 3950 4200 50  0001 C CNN
+F 3 "" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3900 4250 3900
+$Comp
+L power:GND #PWR015
+U 1 1 60B29D68
+P 4250 4200
+F 0 "#PWR015" H 4250 3950 50  0001 C CNN
+F 1 "GND" H 4255 4027 50  0000 C CNN
+F 2 "" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 3100 0    50   Input ~ 0
+ACCENT_IN
+Text GLabel 1150 3650 0    50   Input ~ 0
+KICK_TRIGGER
+$Comp
+L power:GND #PWR03
+U 1 1 60B39E48
+P 1850 2300
+F 0 "#PWR03" H 1850 2050 50  0001 C CNN
+F 1 "GND" H 1855 2127 50  0000 C CNN
+F 2 "" H 1850 2300 50  0001 C CNN
+F 3 "" H 1850 2300 50  0001 C CNN
+	1    1850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60B3AB8A
+P 2250 2300
+F 0 "#PWR06" H 2250 2050 50  0001 C CNN
+F 1 "GND" H 2255 2127 50  0000 C CNN
+F 2 "" H 2250 2300 50  0001 C CNN
+F 3 "" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60B3B31D
+P 2800 2300
+F 0 "#PWR08" H 2800 2050 50  0001 C CNN
+F 1 "GND" H 2805 2127 50  0000 C CNN
+F 2 "" H 2800 2300 50  0001 C CNN
+F 3 "" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 60B3B85A
+P 3300 2300
+F 0 "#PWR012" H 3300 2050 50  0001 C CNN
+F 1 "GND" H 3305 2127 50  0000 C CNN
+F 2 "" H 3300 2300 50  0001 C CNN
+F 3 "" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1950 1850 1950
+Wire Wire Line
+	1850 2000 1850 1950
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1950 1950 1950
+Wire Wire Line
+	2250 1750 2250 1600
+Connection ~ 2250 1600
+Wire Wire Line
+	2250 1600 2250 1550
+Wire Wire Line
+	2800 1850 2800 1600
+Connection ~ 2800 1600
+Wire Wire Line
+	3300 1150 3300 1250
+$Comp
+L power:+12V #PWR05
+U 1 1 60B43314
+P 2250 1200
+F 0 "#PWR05" H 2250 1050 50  0001 C CNN
+F 1 "+12V" H 2265 1373 50  0000 C CNN
+F 2 "" H 2250 1200 50  0001 C CNN
+F 3 "" H 2250 1200 50  0001 C CNN
+	1    2250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR011
+U 1 1 60B43A9B
+P 3300 800
+F 0 "#PWR011" H 3300 650 50  0001 C CNN
+F 1 "+12V" H 3315 973 50  0000 C CNN
+F 2 "" H 3300 800 50  0001 C CNN
+F 3 "" H 3300 800 50  0001 C CNN
+	1    3300 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 800  3300 850 
+Wire Wire Line
+	2250 1250 2250 1200
+Wire Wire Line
+	2800 1600 3000 1600
+Wire Wire Line
+	2250 1600 2800 1600
+Wire Wire Line
+	1150 1950 1450 1950
+Connection ~ 3200 3900
+Wire Wire Line
+	3200 3900 2850 3900
+Wire Wire Line
+	1500 7000 2000 7000
+Wire Wire Line
+	2000 7100 1500 7100
+Wire Wire Line
+	1500 7200 2000 7200
+Wire Wire Line
+	2000 7300 1500 7300
+Wire Wire Line
+	1500 7300 1500 7200
+Connection ~ 1500 7300
+Connection ~ 1500 7100
+Connection ~ 1500 7200
+Wire Wire Line
+	1500 7200 1500 7100
+Wire Wire Line
+	2000 7100 2000 7200
+Connection ~ 2000 7100
+Connection ~ 2000 7300
+Connection ~ 2000 7200
+Wire Wire Line
+	2000 7200 2000 7300
+Wire Wire Line
+	2000 7400 1500 7400
+Wire Wire Line
+	2000 7000 2000 6900
+Wire Wire Line
+	2000 6900 2150 6900
+Connection ~ 2000 7000
+Wire Wire Line
+	2000 7400 2000 7500
+Wire Wire Line
+	2000 7500 2150 7500
+Connection ~ 2000 7400
+Wire Wire Line
+	2450 6900 2700 6900
+Connection ~ 2700 6900
+Wire Wire Line
+	2700 6900 3200 6900
+Connection ~ 3200 6900
+Connection ~ 2700 7500
+Wire Wire Line
+	2700 7500 2450 7500
+Connection ~ 3200 7500
+Wire Wire Line
+	3200 7500 2700 7500
+Wire Wire Line
+	2000 7200 2700 7200
+Connection ~ 3200 7200
+Connection ~ 2700 7200
+$Comp
+L power:GND #PWR01
+U 1 1 60B67DCB
+P 1250 7300
+F 0 "#PWR01" H 1250 7050 50  0001 C CNN
+F 1 "GND" H 1255 7127 50  0000 C CNN
+F 2 "" H 1250 7300 50  0001 C CNN
+F 3 "" H 1250 7300 50  0001 C CNN
+	1    1250 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 7300 1250 7200
+Wire Wire Line
+	1250 7200 1500 7200
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60B6AB34
+P 2700 6900
+F 0 "#FLG02" H 2700 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 7073 50  0000 C CNN
+F 2 "" H 2700 6900 50  0001 C CNN
+F 3 "~" H 2700 6900 50  0001 C CNN
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 60B6B350
+P 2700 7500
+F 0 "#FLG03" H 2700 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 7673 50  0000 C CNN
+F 2 "" H 2700 7500 50  0001 C CNN
+F 3 "~" H 2700 7500 50  0001 C CNN
+	1    2700 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR09
+U 1 1 60B6C20E
+P 3200 6900
+F 0 "#PWR09" H 3200 6750 50  0001 C CNN
+F 1 "+12V" H 3215 7073 50  0000 C CNN
+F 2 "" H 3200 6900 50  0001 C CNN
+F 3 "" H 3200 6900 50  0001 C CNN
+	1    3200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR010
+U 1 1 60B6D0DB
+P 3200 7500
+F 0 "#PWR010" H 3200 7600 50  0001 C CNN
+F 1 "-12V" H 3215 7673 50  0000 C CNN
+F 2 "" H 3200 7500 50  0001 C CNN
+F 3 "" H 3200 7500 50  0001 C CNN
+	1    3200 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60B7597A
+P 850 7300
+F 0 "#FLG01" H 850 7375 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 7450 50  0000 C CNN
+F 2 "" H 850 7300 50  0001 C CNN
+F 3 "~" H 850 7300 50  0001 C CNN
+	1    850  7300
+	-1   0    0    1   
+$EndComp
+Connection ~ 1250 7200
+Wire Wire Line
+	3800 3900 3950 3900
+Wire Wire Line
+	3750 1250 3700 1250
+Connection ~ 3300 1250
+Wire Wire Line
+	3300 1250 3300 1400
+Wire Wire Line
+	4050 1250 4200 1250
+Wire Wire Line
+	4200 1300 4200 1250
+Connection ~ 4200 1250
+Wire Wire Line
+	4200 1250 4550 1250
+$Comp
+L power:GND #PWR014
+U 1 1 60B8FED1
+P 4200 1600
+F 0 "#PWR014" H 4200 1350 50  0001 C CNN
+F 1 "GND" H 4205 1427 50  0000 C CNN
+F 2 "" H 4200 1600 50  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 60B9568A
+P 4400 2900
+F 0 "#PWR016" H 4400 2650 50  0001 C CNN
+F 1 "GND" H 4405 2727 50  0000 C CNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 3700 1250
+Connection ~ 3700 1250
+Wire Wire Line
+	3700 1250 3300 1250
+Wire Wire Line
+	4400 2500 4400 2450
+Wire Wire Line
+	5250 2350 5250 2450
+Connection ~ 5250 2450
+Wire Wire Line
+	5250 2050 5250 1950
+Wire Wire Line
+	5200 1950 5250 1950
+Wire Wire Line
+	3700 2700 3750 2700
+Wire Wire Line
+	4050 2700 4100 2700
+Connection ~ 5700 3300
+Wire Wire Line
+	5700 3300 5700 3800
+Wire Wire Line
+	5500 3300 5700 3300
+Wire Wire Line
+	5650 3800 5700 3800
+Wire Wire Line
+	2250 2300 2250 2150
+Wire Wire Line
+	2800 2300 2800 2150
+Wire Wire Line
+	3300 2300 3300 1800
+$Comp
+L power:GND #PWR019
+U 1 1 60C05753
+P 6500 3150
+F 0 "#PWR019" H 6500 2900 50  0001 C CNN
+F 1 "GND" H 6505 2977 50  0000 C CNN
+F 2 "" H 6500 3150 50  0001 C CNN
+F 3 "" H 6500 3150 50  0001 C CNN
+	1    6500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3050 6500 3150
+Wire Wire Line
+	6500 2750 6500 2600
+Wire Wire Line
+	7150 1950 7450 1950
+Wire Wire Line
+	7450 1950 7450 2500
+Wire Wire Line
+	7450 1250 7450 1550
+Connection ~ 7450 1950
+Wire Wire Line
+	6900 1550 7050 1550
+Wire Wire Line
+	7350 1550 7450 1550
+Connection ~ 7450 1550
+Wire Wire Line
+	7450 1550 7450 1950
+Wire Wire Line
+	6750 1400 6750 1350
+Wire Wire Line
+	6500 1950 6500 1550
+Connection ~ 6500 1950
+Wire Wire Line
+	6600 1550 6500 1550
+Connection ~ 6500 1550
+Wire Wire Line
+	6500 1550 6500 1350
+Wire Wire Line
+	6500 1350 6750 1350
+Wire Wire Line
+	6500 1950 6500 2400
+Wire Wire Line
+	6500 1950 6850 1950
+Wire Wire Line
+	6500 2600 6600 2600
+Wire Wire Line
+	6500 2400 6600 2400
+Wire Wire Line
+	5700 1950 5850 1950
+Wire Wire Line
+	6250 1950 6500 1950
+Wire Wire Line
+	6050 1250 7450 1250
+Wire Wire Line
+	5250 1950 5300 1950
+Connection ~ 5250 1950
+Wire Wire Line
+	5600 1950 5700 1950
+Connection ~ 5700 1950
+Wire Wire Line
+	4850 1250 5250 1250
+Wire Wire Line
+	5850 3850 6350 3850
+Wire Wire Line
+	6350 3850 6350 3950
+Connection ~ 5850 3850
+Wire Wire Line
+	5850 3850 5850 3950
+Wire Wire Line
+	6050 4800 5850 4800
+Wire Wire Line
+	6600 4800 6600 4850
+Wire Wire Line
+	6750 5000 6800 5000
+Wire Wire Line
+	7450 5100 7450 5000
+Connection ~ 7450 5000
+Wire Wire Line
+	7450 5000 7500 5000
+Wire Wire Line
+	7800 5200 7800 5250
+Wire Wire Line
+	7800 5250 8250 5250
+Connection ~ 7800 5250
+Wire Wire Line
+	7800 5250 7800 5350
+$Comp
+L power:GND #PWR018
+U 1 1 60CC8DF4
+P 5850 5200
+F 0 "#PWR018" H 5850 4950 50  0001 C CNN
+F 1 "GND" H 5855 5027 50  0000 C CNN
+F 2 "" H 5850 5200 50  0001 C CNN
+F 3 "" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60CC94B4
+P 6600 5150
+F 0 "#PWR020" H 6600 4900 50  0001 C CNN
+F 1 "GND" H 6605 4977 50  0000 C CNN
+F 2 "" H 6600 5150 50  0001 C CNN
+F 3 "" H 6600 5150 50  0001 C CNN
+	1    6600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 60CC9E8D
+P 7450 5400
+F 0 "#PWR024" H 7450 5150 50  0001 C CNN
+F 1 "GND" H 7455 5227 50  0000 C CNN
+F 2 "" H 7450 5400 50  0001 C CNN
+F 3 "" H 7450 5400 50  0001 C CNN
+	1    7450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR027
+U 1 1 60CCAF5D
+P 7800 5650
+F 0 "#PWR027" H 7800 5750 50  0001 C CNN
+F 1 "-12V" H 7815 5823 50  0000 C CNN
+F 2 "" H 7800 5650 50  0001 C CNN
+F 3 "" H 7800 5650 50  0001 C CNN
+	1    7800 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 60CCBBDC
+P 8250 5550
+F 0 "#PWR028" H 8250 5300 50  0001 C CNN
+F 1 "GND" H 8255 5377 50  0000 C CNN
+F 2 "" H 8250 5550 50  0001 C CNN
+F 3 "" H 8250 5550 50  0001 C CNN
+	1    8250 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3650 8250 3750
+Wire Wire Line
+	8250 4550 8250 5250
+Connection ~ 8250 5250
+Wire Wire Line
+	7800 3800 7800 3750
+Wire Wire Line
+	7800 3750 8250 3750
+Connection ~ 8250 3750
+Wire Wire Line
+	8250 3750 8250 4250
+$Comp
+L power:GND #PWR025
+U 1 1 60CE5F55
+P 7800 4100
+F 0 "#PWR025" H 7800 3850 50  0001 C CNN
+F 1 "GND" H 7805 3927 50  0000 C CNN
+F 2 "" H 7800 4100 50  0001 C CNN
+F 3 "" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 1950
+Wire Wire Line
+	5850 1950 5950 1950
+Wire Wire Line
+	5850 4300 6050 4300
+Wire Wire Line
+	6050 4300 6050 4100
+Wire Wire Line
+	6050 4100 6000 4100
+Connection ~ 5850 4300
+Wire Wire Line
+	5850 4300 5850 4250
+$Comp
+L power:+12V #PWR026
+U 1 1 60CF57F8
+P 7800 4650
+F 0 "#PWR026" H 7800 4500 50  0001 C CNN
+F 1 "+12V" H 7815 4823 50  0000 C CNN
+F 2 "" H 7800 4650 50  0001 C CNN
+F 3 "" H 7800 4650 50  0001 C CNN
+	1    7800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4650 7800 4800
+Text GLabel 9300 1900 0    50   Input ~ 0
+ACCENT_IN
+Wire Wire Line
+	5850 3700 5850 3850
+Wire Wire Line
+	5850 4450 6350 4450
+Connection ~ 5850 4450
+Wire Wire Line
+	6350 4250 6350 4450
+Wire Wire Line
+	5850 4300 5850 4450
+Wire Wire Line
+	5850 4450 5850 4800
+Connection ~ 5850 4800
+Wire Wire Line
+	5850 4800 5850 4900
+Wire Wire Line
+	850  7300 850  7200
+Wire Wire Line
+	4750 3700 5050 3700
+Wire Wire Line
+	4750 3300 5200 3300
+Wire Wire Line
+	5250 1950 5250 1250
+Connection ~ 5250 1250
+Wire Wire Line
+	5250 1250 5750 1250
+Wire Wire Line
+	4400 2450 5250 2450
+Wire Wire Line
+	4750 3700 4750 3300
+Connection ~ 4750 3300
+Wire Wire Line
+	4750 1950 4900 1950
+Wire Wire Line
+	4250 3900 5050 3900
+Connection ~ 4250 3900
+Wire Wire Line
+	5250 2450 5450 2450
+Wire Wire Line
+	5450 2450 5450 2200
+Wire Wire Line
+	5450 2200 5400 2200
+Wire Wire Line
+	4750 1950 4750 3300
+Wire Wire Line
+	5700 1950 5700 3300
+Wire Wire Line
+	3200 2650 3200 3900
+Wire Wire Line
+	3200 2650 1150 2650
+Wire Wire Line
+	1800 3100 2350 3100
+Wire Wire Line
+	1150 2650 1150 1950
+$Comp
+L power:GND #PWR017
+U 1 1 60CDA36B
+P 5250 2750
+F 0 "#PWR017" H 5250 2500 50  0001 C CNN
+F 1 "GND" H 5255 2577 50  0000 C CNN
+F 2 "" H 5250 2750 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5000 7450 5000
+Wire Wire Line
+	6350 4800 6600 4800
+Wire Wire Line
+	2850 3100 2850 3300
+Wire Wire Line
+	7200 2500 7450 2500
+$Comp
+L power:GND #PWR021
+U 1 1 60DE4DC2
+P 7100 3100
+F 0 "#PWR021" H 7100 2850 50  0001 C CNN
+F 1 "GND" H 7105 2927 50  0000 C CNN
+F 2 "" H 7100 3100 50  0001 C CNN
+F 3 "" H 7100 3100 50  0001 C CNN
+	1    7100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3100 7100 3050
+Wire Wire Line
+	7100 3050 7350 3050
+Connection ~ 7350 3050
+$Comp
+L power:-12V #PWR023
+U 1 1 60DEF477
+P 7350 3350
+F 0 "#PWR023" H 7350 3450 50  0001 C CNN
+F 1 "-12V" H 7365 3523 50  0000 C CNN
+F 2 "" H 7350 3350 50  0001 C CNN
+F 3 "" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR022
+U 1 1 60DF02BC
+P 7350 2750
+F 0 "#PWR022" H 7350 2600 50  0001 C CNN
+F 1 "+12V" H 7365 2923 50  0000 C CNN
+F 2 "" H 7350 2750 50  0001 C CNN
+F 3 "" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 3150 0    50   Input ~ 0
+KICK_OUT
+Wire Wire Line
+	8250 3150 8150 3150
+Wire Wire Line
+	2700 7200 3200 7200
+Wire Wire Line
+	8250 3150 8250 3350
+Text GLabel 9300 2100 0    50   Input ~ 0
+KICK_OUT
+Wire Wire Line
+	5850 1950 5850 3400
+Text GLabel 9300 1700 0    50   Input ~ 0
+KICK_TRIGGER
+Wire Wire Line
+	10150 1900 10150 2100
+Wire Wire Line
+	10150 2100 10300 2100
+Wire Wire Line
+	10050 2500 10300 2500
+Wire Wire Line
+	10200 2600 10300 2600
+Wire Wire Line
+	10200 2600 10200 2200
+Wire Wire Line
+	10200 2200 10300 2200
+Connection ~ 10200 2200
+NoConn ~ 10300 1600
+Wire Wire Line
+	10150 1900 9300 1900
+NoConn ~ 700  8650
+Wire Wire Line
+	10300 1800 10200 1800
+Wire Wire Line
+	10200 1800 10200 2200
+Wire Wire Line
+	9300 1700 10300 1700
+NoConn ~ 10300 2400
+$Comp
+L power:GND #PWR031
+U 1 1 612B1C0A
+P 10200 2700
+F 0 "#PWR031" H 10200 2450 50  0001 C CNN
+F 1 "GND" H 10205 2527 50  0000 C CNN
+F 2 "" H 10200 2700 50  0001 C CNN
+F 3 "" H 10200 2700 50  0001 C CNN
+	1    10200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2700 10200 2600
+Connection ~ 10200 2600
+$Comp
+L power:GND #PWR030
+U 1 1 612BF576
+P 9100 2850
+F 0 "#PWR030" H 9100 2600 50  0001 C CNN
+F 1 "GND" H 9105 2677 50  0000 C CNN
+F 2 "" H 9100 2850 50  0001 C CNN
+F 3 "" H 9100 2850 50  0001 C CNN
+	1    9100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR029
+U 1 1 612BFF06
+P 9100 2550
+F 0 "#PWR029" H 9100 2400 50  0001 C CNN
+F 1 "+12V" H 9115 2723 50  0000 C CNN
+F 2 "" H 9100 2550 50  0001 C CNN
+F 3 "" H 9100 2550 50  0001 C CNN
+	1    9100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2700 9700 2700
+Wire Wire Line
+	9700 2700 9700 2000
+Wire Wire Line
+	9300 2100 10050 2100
+Wire Wire Line
+	10050 2100 10050 2500
+Wire Wire Line
+	9700 2000 10300 2000
+Wire Wire Line
+	3200 6900 4150 6900
+Wire Wire Line
+	3200 7500 4150 7500
+Wire Wire Line
+	850  7200 1250 7200
+$Comp
+L Device:R_POT RV5
+U 1 1 612BE8E2
+P 9100 2700
+F 0 "RV5" H 9031 2746 50  0000 R CNN
+F 1 "Accent 10K" H 9031 2655 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 9100 2700 50  0001 C CNN
+F 3 "~" H 9100 2700 50  0001 C CNN
+	1    9100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 60C5D8F1
+P 5250 2200
+F 0 "RV1" H 5181 2246 50  0000 R CNN
+F 1 "BD Tune Env 10K" H 5181 2155 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5250 2200 50  0001 C CNN
+F 3 "~" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 618C638E
+P 10500 1700
+F 0 "J2" H 10320 1633 50  0000 R CNN
+F 1 "BD_Trig" H 10320 1724 50  0000 R CNN
+F 2 "thonk:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 10500 1700 50  0001 C CNN
+F 3 "~" H 10500 1700 50  0001 C CNN
+	1    10500 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 618C5C16
+P 10500 2500
+F 0 "J4" H 10320 2433 50  0000 R CNN
+F 1 "BD_Out" H 10320 2524 50  0000 R CNN
+F 2 "thonk:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 10500 2500 50  0001 C CNN
+F 3 "~" H 10500 2500 50  0001 C CNN
+	1    10500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J3
+U 1 1 618C5473
+P 10500 2100
+F 0 "J3" H 10320 2033 50  0000 R CNN
+F 1 "Accent_In" H 10320 2124 50  0000 R CNN
+F 2 "thonk:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 10500 2100 50  0001 C CNN
+F 3 "~" H 10500 2100 50  0001 C CNN
+	1    10500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 60DE3EB2
+P 7350 3200
+F 0 "C16" H 7465 3246 50  0000 L CNN
+F 1 "100n" H 7465 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7388 3050 50  0001 C CNN
+F 3 "~" H 7350 3200 50  0001 C CNN
+	1    7350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 60DE311F
+P 7350 2900
+F 0 "C15" H 7465 2946 50  0000 L CNN
+F 1 "100n" H 7465 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7388 2750 50  0001 C CNN
+F 3 "~" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 60CCE4AD
+P 7800 3950
+F 0 "R24" H 7870 3996 50  0000 L CNN
+F 1 "100K" H 7870 3905 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7730 3950 50  0001 C CNN
+F 3 "~" H 7800 3950 50  0001 C CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 60CCD769
+P 8250 3500
+F 0 "R26" H 8320 3546 50  0000 L CNN
+F 1 "1K" H 8320 3455 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8180 3500 50  0001 C CNN
+F 3 "~" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C17
+U 1 1 60CCC5BA
+P 8250 4400
+F 0 "C17" H 8132 4354 50  0000 R CNN
+F 1 "1uF" H 8132 4445 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8288 4250 50  0001 C CNN
+F 3 "~" H 8250 4400 50  0001 C CNN
+	1    8250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 60C82E17
+P 8250 5400
+F 0 "C18" H 8365 5446 50  0000 L CNN
+F 1 "220pF" H 8365 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8288 5250 50  0001 C CNN
+F 3 "~" H 8250 5400 50  0001 C CNN
+	1    8250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 60C82493
+P 7800 5500
+F 0 "R25" H 7730 5454 50  0000 R CNN
+F 1 "6K8" H 7730 5545 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7730 5500 50  0001 C CNN
+F 3 "~" H 7800 5500 50  0001 C CNN
+	1    7800 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q6
+U 1 1 60C81426
+P 7700 5000
+F 0 "Q6" H 7890 5046 50  0000 L CNN
+F 1 "2N3904" H 7890 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 7900 4925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 7700 5000 50  0001 L CNN
+F 4 "Q" H 7700 5000 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3904C" H 7700 5000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 7700 5000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 7700 5000 50  0001 C CNN "Spice_Lib_File"
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 60C7F17F
+P 7450 5250
+F 0 "R23" H 7380 5204 50  0000 R CNN
+F 1 "100K" H 7380 5295 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7380 5250 50  0001 C CNN
+F 3 "~" H 7450 5250 50  0001 C CNN
+	1    7450 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 60C7E7EC
+P 7250 5000
+F 0 "R22" V 7043 5000 50  0000 C CNN
+F 1 "82K" V 7134 5000 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7180 5000 50  0001 C CNN
+F 3 "~" H 7250 5000 50  0001 C CNN
+	1    7250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C13
+U 1 1 60C7D843
+P 6950 5000
+F 0 "C13" V 7205 5000 50  0000 C CNN
+F 1 "0.47uF" V 7114 5000 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6988 4850 50  0001 C CNN
+F 3 "~" H 6950 5000 50  0001 C CNN
+	1    6950 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 60C7CD03
+P 6600 5000
+F 0 "RV3" H 6530 5046 50  0000 R CNN
+F 1 "BD Level 10K" H 6530 4955 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6600 5000 50  0001 C CNN
+F 3 "~" H 6600 5000 50  0001 C CNN
+F 4 "R" H 6600 5000 50  0001 C CNN "Spice_Primitive"
+F 5 "10K" H 6600 5000 50  0001 C CNN "Spice_Model"
+F 6 "N" H 6600 5000 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 60C7BFB5
+P 6200 4800
+F 0 "C12" V 5945 4800 50  0000 C CNN
+F 1 "0.47uF" V 6036 4800 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6238 4650 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 60C7AF08
+P 5850 5050
+F 0 "C11" H 5965 5096 50  0000 L CNN
+F 1 "100n" H 5965 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5888 4900 50  0001 C CNN
+F 3 "~" H 5850 5050 50  0001 C CNN
+F 4 "C" H 5850 5050 50  0001 C CNN "Spice_Primitive"
+F 5 "100n" H 5850 5050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5850 5050 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    5850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 60C79BBF
+P 5850 4100
+F 0 "RV2" H 5781 4146 50  0000 R CNN
+F 1 "BD Tone 10K" H 5781 4055 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5850 4100 50  0001 C CNN
+F 3 "~" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 60C78EBD
+P 6350 4100
+F 0 "R19" H 6420 4146 50  0000 L CNN
+F 1 "10K" H 6420 4055 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6280 4100 50  0001 C CNN
+F 3 "~" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 60C7849C
+P 5850 3550
+F 0 "R16" H 5920 3596 50  0000 L CNN
+F 1 "220R" H 5920 3505 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5780 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV4
+U 1 1 60C241F2
+P 6750 1550
+F 0 "RV4" V 6635 1550 50  0000 C CNN
+F 1 "BD Decay 500K " V 6544 1550 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6750 1550 50  0001 C CNN
+F 3 "~" H 6750 1550 50  0001 C CNN
+	1    6750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C14
+U 1 1 60C22F31
+P 7200 1550
+F 0 "C14" V 7455 1550 50  0000 C CNN
+F 1 "33uF" V 7364 1550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7238 1400 50  0001 C CNN
+F 3 "~" H 7200 1550 50  0001 C CNN
+	1    7200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 60BFDC40
+P 6900 2500
+F 0 "U1" H 6900 2133 50  0000 C CNN
+F 1 "TL072" H 6900 2224 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6900 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 2500 50  0001 C CNN
+F 4 "X" H 6900 2500 50  0001 C CNN "Spice_Primitive"
+F 5 "TL072" H 6900 2500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6900 2500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "TL072.txt.lib" H 6900 2500 50  0001 C CNN "Spice_Lib_File"
+	2    6900 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 60BFC52C
+P 6500 2900
+F 0 "R20" H 6570 2946 50  0000 L CNN
+F 1 "22K" H 6570 2855 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6430 2900 50  0001 C CNN
+F 3 "~" H 6500 2900 50  0001 C CNN
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 60BFBF9A
+P 7000 1950
+F 0 "R21" V 7207 1950 50  0000 C CNN
+F 1 "47K" V 7116 1950 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6930 1950 50  0001 C CNN
+F 3 "~" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 60BF617C
+P 6100 1950
+F 0 "R18" V 6307 1950 50  0000 C CNN
+F 1 "47K" V 6216 1950 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6030 1950 50  0001 C CNN
+F 3 "~" H 6100 1950 50  0001 C CNN
+	1    6100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 60BA0A40
+P 5250 2600
+F 0 "R14" H 5320 2646 50  0000 L CNN
+F 1 "47K" H 5320 2555 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5180 2600 50  0001 C CNN
+F 3 "~" H 5250 2600 50  0001 C CNN
+	1    5250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q5
+U 1 1 60B95476
+P 4300 2700
+F 0 "Q5" H 4490 2746 50  0000 L CNN
+F 1 "2N3904" H 4490 2655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 4500 2625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4300 2700 50  0001 L CNN
+F 4 "Q" H 4300 2700 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3904C" H 4300 2700 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4300 2700 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 4300 2700 50  0001 C CNN "Spice_Lib_File"
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 60B93B79
+P 5450 1950
+F 0 "C10" V 5702 1950 50  0000 C CNN
+F 1 "15nF" V 5611 1950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5488 1800 50  0001 C CNN
+F 3 "~" H 5450 1950 50  0001 C CNN
+	1    5450 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 60B935DC
+P 5050 1950
+F 0 "C9" V 5302 1950 50  0000 C CNN
+F 1 "15nF" V 5211 1950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5088 1800 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60B928C6
+P 3900 2700
+F 0 "R11" V 3693 2700 50  0000 C CNN
+F 1 "100K" V 3784 2700 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3830 2700 50  0001 C CNN
+F 3 "~" H 3900 2700 50  0001 C CNN
+	1    3900 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 60B8995C
+P 5900 1250
+F 0 "R17" V 5693 1250 50  0000 C CNN
+F 1 "470K" V 5784 1250 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5830 1250 50  0001 C CNN
+F 3 "~" H 5900 1250 50  0001 C CNN
+	1    5900 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 60B88172
+P 4200 1450
+F 0 "D4" V 4246 1370 50  0000 R CNN
+F 1 "1N4148" V 4155 1370 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:D_MiniMELF_Handsoldering" H 4200 1275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4200 1450 50  0001 C CNN
+F 4 "Cordell-Models.txt.lib" H 4200 1450 50  0001 C CNN "Spice_Lib_File"
+F 5 "1N4148C" H 4200 1450 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4200 1450 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "D" H 4200 1450 50  0001 C CNN "Spice_Primitive"
+	1    4200 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 60B870A5
+P 4700 1250
+F 0 "R13" V 4493 1250 50  0000 C CNN
+F 1 "1M" V 4584 1250 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4630 1250 50  0001 C CNN
+F 3 "~" H 4700 1250 50  0001 C CNN
+	1    4700 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60B8639A
+P 3900 1250
+F 0 "C8" V 4152 1250 50  0000 C CNN
+F 1 "33nF" V 4061 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3938 1100 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 60B5A340
+P 2700 7350
+F 0 "C3" H 2818 7396 50  0000 L CNN
+F 1 "47uF" H 2818 7305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2738 7200 50  0001 C CNN
+F 3 "~" H 2700 7350 50  0001 C CNN
+	1    2700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 60B59955
+P 2700 7050
+F 0 "C2" H 2818 7096 50  0000 L CNN
+F 1 "47uF" H 2818 7005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2738 6900 50  0001 C CNN
+F 3 "~" H 2700 7050 50  0001 C CNN
+	1    2700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60B58CD5
+P 3200 7050
+F 0 "C5" H 3085 7004 50  0000 R CNN
+F 1 "100n" H 3085 7095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3238 6900 50  0001 C CNN
+F 3 "~" H 3200 7050 50  0001 C CNN
+	1    3200 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60B57F1C
+P 3200 7350
+F 0 "C6" H 3085 7304 50  0000 R CNN
+F 1 "100n" H 3085 7395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3238 7200 50  0001 C CNN
+F 3 "~" H 3200 7350 50  0001 C CNN
+	1    3200 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 60B56E21
+P 2300 6900
+F 0 "D2" H 2300 6683 50  0000 C CNN
+F 1 "BAT85" H 2300 6774 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:D_MiniMELF_Handsoldering" H 2300 6900 50  0001 C CNN
+F 3 "~" H 2300 6900 50  0001 C CNN
+F 4 "D" H 2300 6900 50  0001 C CNN "Spice_Primitive"
+F 5 "BAT85C" H 2300 6900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2300 6900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 2300 6900 50  0001 C CNN "Spice_Lib_File"
+	1    2300 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60B39721
+P 3300 1000
+F 0 "R9" H 3230 954 50  0000 R CNN
+F 1 "22K" H 3230 1045 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3230 1000 50  0001 C CNN
+F 3 "~" H 3300 1000 50  0001 C CNN
+	1    3300 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q4
+U 1 1 60B38D1F
+P 3200 1600
+F 0 "Q4" H 3390 1646 50  0000 L CNN
+F 1 "2N3904" H 3390 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 3400 1525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3200 1600 50  0001 L CNN
+F 4 "Q" H 3200 1600 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3904C" H 3200 1600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3200 1600 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 3200 1600 50  0001 C CNN "Spice_Lib_File"
+	1    3200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60B37F6E
+P 2800 2000
+F 0 "C4" H 2685 1954 50  0000 R CNN
+F 1 "100n" H 2685 2045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2838 1850 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60B3793D
+P 2250 1400
+F 0 "R6" H 2180 1354 50  0000 R CNN
+F 1 "1M" H 2180 1445 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2180 1400 50  0001 C CNN
+F 3 "~" H 2250 1400 50  0001 C CNN
+	1    2250 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 60B36E2E
+P 2150 1950
+F 0 "Q1" H 2340 1996 50  0000 L CNN
+F 1 "2N3904" H 2340 1905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 2350 1875 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2150 1950 50  0001 L CNN
+F 4 "Q" H 2150 1950 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3904C" H 2150 1950 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2150 1950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 2150 1950 50  0001 C CNN "Spice_Lib_File"
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60B363F1
+P 1850 2150
+F 0 "R3" H 1780 2104 50  0000 R CNN
+F 1 "2K7" H 1780 2195 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1780 2150 50  0001 C CNN
+F 3 "~" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60B356F4
+P 1600 1950
+F 0 "R2" V 1393 1950 50  0000 C CNN
+F 1 "8K2" V 1484 1950 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1530 1950 50  0001 C CNN
+F 3 "~" H 1600 1950 50  0001 C CNN
+	1    1600 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 60B28C65
+P 4250 4050
+F 0 "D5" V 4204 4130 50  0000 L CNN
+F 1 "1N4148" V 4295 4130 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:D_MiniMELF_Handsoldering" H 4250 3875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 4050 50  0001 C CNN
+F 4 "D" H 4250 4050 50  0001 C CNN "Spice_Primitive"
+F 5 "1N4148C" H 4250 4050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4250 4050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 4250 4050 50  0001 C CNN "Spice_Lib_File"
+	1    4250 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 60B1E37F
+P 5350 3300
+F 0 "R15" V 5143 3300 50  0000 C CNN
+F 1 "1M" V 5234 3300 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5280 3300 50  0001 C CNN
+F 3 "~" H 5350 3300 50  0001 C CNN
+	1    5350 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 60B1AAA1
+P 5350 3800
+F 0 "U1" H 5350 3433 50  0000 C CNN
+F 1 "TL072" H 5350 3524 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5350 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5350 3800 50  0001 C CNN
+F 4 "X" H 5350 3800 50  0001 C CNN "Spice_Primitive"
+F 5 "TL072" H 5350 3800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5350 3800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "TL072.txt.lib" H 5350 3800 50  0001 C CNN "Spice_Lib_File"
+	1    5350 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 60B17EED
+P 4250 7200
+F 0 "U1" H 4208 7246 50  0000 L CNN
+F 1 "TL072" H 4208 7155 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 4250 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4250 7200 50  0001 C CNN
+	3    4250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60B16F71
+P 3950 4050
+F 0 "R12" H 3880 4004 50  0000 R CNN
+F 1 "4K7" H 3880 4095 50  0000 R CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3880 4050 50  0001 C CNN
+F 3 "~" H 3950 4050 50  0001 C CNN
+	1    3950 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 60B16AAB
+P 3550 4100
+F 0 "R10" V 3343 4100 50  0000 C CNN
+F 1 "100K" V 3434 4100 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3480 4100 50  0001 C CNN
+F 3 "~" H 3550 4100 50  0001 C CNN
+	1    3550 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60B16397
+P 3550 3700
+F 0 "C7" V 3298 3700 50  0000 C CNN
+F 1 "15nF" V 3389 3700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3588 3550 50  0001 C CNN
+F 3 "~" H 3550 3700 50  0001 C CNN
+	1    3550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60B155EC
+P 2350 3300
+F 0 "R7" H 2420 3346 50  0000 L CNN
+F 1 "4K7" H 2420 3255 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2280 3300 50  0001 C CNN
+F 3 "~" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60B151BE
+P 2350 3700
+F 0 "R8" H 2420 3746 50  0000 L CNN
+F 1 "10K" H 2420 3655 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2280 3700 50  0001 C CNN
+F 3 "~" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3906 Q3
+U 1 1 60B14C87
+P 2750 3500
+F 0 "Q3" H 2940 3546 50  0000 L CNN
+F 1 "2N3906 PNP" H 2940 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 2950 3425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2750 3500 50  0001 L CNN
+F 4 "Q" H 2750 3500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3906C" H 2750 3500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2750 3500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 2750 3500 50  0001 C CNN "Spice_Lib_File"
+	1    2750 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 60B13811
+P 2250 4050
+F 0 "Q2" H 2440 4096 50  0000 L CNN
+F 1 "2N3904" H 2440 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 2450 3975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2250 4050 50  0001 L CNN
+F 4 "Q" H 2250 4050 50  0001 C CNN "Spice_Primitive"
+F 5 "2N3904C" H 2250 4050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2250 4050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 2250 4050 50  0001 C CNN "Spice_Lib_File"
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60B12939
+P 1950 4250
+F 0 "R5" H 2020 4296 50  0000 L CNN
+F 1 "10K" H 2020 4205 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1880 4250 50  0001 C CNN
+F 3 "~" H 1950 4250 50  0001 C CNN
+	1    1950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60B12567
+P 1950 3850
+F 0 "R4" H 2020 3896 50  0000 L CNN
+F 1 "22K" H 2020 3805 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1880 3850 50  0001 C CNN
+F 3 "~" H 1950 3850 50  0001 C CNN
+	1    1950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60B11D7F
+P 1700 3650
+F 0 "C1" V 1448 3650 50  0000 C CNN
+F 1 "100n" V 1539 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1738 3500 50  0001 C CNN
+F 3 "~" H 1700 3650 50  0001 C CNN
+	1    1700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60B1180B
+P 1500 3850
+F 0 "R1" H 1570 3896 50  0000 L CNN
+F 1 "100K" H 1570 3805 50  0000 L CNN
+F 2 "Andys_Custom_Footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1430 3850 50  0001 C CNN
+F 3 "~" H 1500 3850 50  0001 C CNN
+	1    1500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 60B106C1
+P 1300 3650
+F 0 "D1" H 1300 3433 50  0000 C CNN
+F 1 "1N4148" H 1300 3524 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:D_MiniMELF_Handsoldering" H 1300 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1300 3650 50  0001 C CNN
+F 4 "Cordell-Models.txt.lib" H 1300 3650 50  0001 C CNN "Spice_Lib_File"
+F 5 "1N4148C" H 1300 3650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1300 3650 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "D" H 1300 3650 50  0001 C CNN "Spice_Primitive"
+	1    1300 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 60B0F6BC
+P 1700 7200
+F 0 "J1" H 1750 6775 50  0000 C CNN
+F 1 "Power In" H 1750 6866 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1700 7200 50  0001 C CNN
+F 3 "~" H 1700 7200 50  0001 C CNN
+	1    1700 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 60B56155
+P 2300 7500
+F 0 "D3" H 2300 7717 50  0000 C CNN
+F 1 "BAT85" H 2300 7626 50  0000 C CNN
+F 2 "Andys_Custom_Footprints:D_MiniMELF_Handsoldering" H 2300 7500 50  0001 C CNN
+F 3 "~" H 2300 7500 50  0001 C CNN
+F 4 "D" H 2300 7500 50  0001 C CNN "Spice_Primitive"
+F 5 "BAT85C" H 2300 7500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2300 7500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Cordell-Models.txt.lib" H 2300 7500 50  0001 C CNN "Spice_Lib_File"
+	1    2300 7500
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 5100 1    79   ~ 16
+SWAP POT PINS\nfor rear mount
+Text Notes 8050 2600 0    79   ~ 16
+SWAP POT PINS\nfor rear mount
+Text Notes 6300 4600 0    79   ~ 16
+WIDEN CAP SPACING
+Text Notes 7000 6350 1    79   ~ 16
+WIDEN CAP SPACING
+$EndSCHEMATC
